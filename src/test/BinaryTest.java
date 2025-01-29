@@ -100,8 +100,8 @@ public class BinaryTest {
      */
     @Test
     public void andT2() {
-        Binary binary1 = new Binary("1010");
-        Binary binary2 = new Binary("11");
+        Binary binary1 = new Binary("11");
+        Binary binary2 = new Binary("1010");
         Binary result = Binary.and(binary1, binary2);
         assertTrue(result.getValue().equals("10"));
     }
@@ -110,8 +110,8 @@ public class BinaryTest {
      */
     @Test
     public void multiplyT2() {
-        Binary binary1 = new Binary("1010");
-        Binary binary2 = new Binary("11");
+        Binary binary1 = new Binary("11");
+        Binary binary2 = new Binary("1010");
         Binary result = Binary.multiply(binary1, binary2);
         assertTrue(result.getValue().equals("11110"));
     }
@@ -120,8 +120,8 @@ public class BinaryTest {
      */
     @Test
     public void orT2() {
-        Binary binary1 = new Binary("1010");
-        Binary binary2 = new Binary("11");
+        Binary binary1 = new Binary("11");
+        Binary binary2 = new Binary("1010");
         Binary result = Binary.or(binary1, binary2);
         assertTrue(result.getValue().equals("1011"));
     }
@@ -132,8 +132,8 @@ public class BinaryTest {
      */
     @Test
     public void andT3() {
-        Binary binary1 = new Binary("11");
-        Binary binary2 = new Binary("1010");
+        Binary binary1 = new Binary("1010");
+        Binary binary2 = new Binary("11");
         Binary result = Binary.and(binary1, binary2);
         assertTrue(result.getValue().equals("10"));
     }
@@ -142,8 +142,8 @@ public class BinaryTest {
      */
     @Test
     public void multiplyT3() {
-        Binary binary1 = new Binary("11");
-        Binary binary2 = new Binary("1010");
+        Binary binary1 = new Binary("1010");
+        Binary binary2 = new Binary("11");
         Binary result = Binary.multiply(binary1, binary2);
         assertTrue(result.getValue().equals("11110"));
     }
@@ -152,8 +152,8 @@ public class BinaryTest {
      */
     @Test
     public void orT3() {
-        Binary binary1 = new Binary("11");
-        Binary binary2 = new Binary("1010");
+        Binary binary1 = new Binary("1010");
+        Binary binary2 = new Binary("11");
         Binary result = Binary.or(binary1, binary2);
         assertTrue(result.getValue().equals("1011"));
     }
